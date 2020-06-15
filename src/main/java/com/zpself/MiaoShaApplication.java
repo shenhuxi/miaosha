@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.*;
  */
 @SpringBootApplication
 @MapperScan("com.zpself.module.repository")
-public class MiaoApplication {
+public class MiaoShaApplication {
     public static void main(String[] args) {
-        SpringApplication.run(MiaoApplication.class, args);
+        SpringApplication.run(MiaoShaApplication.class, args);
     }
 }
